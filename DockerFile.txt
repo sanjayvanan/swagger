@@ -1,0 +1,3 @@
+FROM openjdk:17
+ADD target/*. jar sanj.jar
+ENTRYPOINT [ "java","-jar","sanj.jar"]
